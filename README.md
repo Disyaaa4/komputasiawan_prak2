@@ -1,0 +1,1 @@
+# komputasiawan_prak2
