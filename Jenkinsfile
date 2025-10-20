@@ -4,7 +4,7 @@ pipeline {
 
     IMAGE_NAME = 'Disyaaa4/simple-app'
     REGISTRY = 'https://index.docker.io/v1/'
-  # ubah 'dockerhub-credentials' dengan credential yang sudah kamu buat 
+   
     REGISTRY_CREDENTIALS = 'dockerhub-credentials'
   }
   stages {
@@ -43,4 +43,5 @@ pipeline {
       echo 'Selesai build'
     }
   }
+
 }
